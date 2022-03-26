@@ -80,7 +80,7 @@ export default class Home extends React.Component{
             <div className="main-container">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="header-svg">
                     <path fill="#116209" fill-opacity="1" d="M0,192L1440,96L1440,0L0,0Z"></path>
-                    <text x={ window.screen.width < 650 ? 150 : 100 } y={ window.screen.width < 650 ? 50 : 100 } className="header">isaHotdogaSandwichdotdog</text>
+                    <text x={ window.screen.width < 650 ? 150 : 100 } y={ window.screen.width < 650 ? 50 : 100 } className="header">isahotdogasandwichdotdog</text>
                 </svg>
                 <section className="container">
                     <span id="hotdog-emoji" onClick={() => this.scrollToTheTop()}><span>🌭</span></span>
